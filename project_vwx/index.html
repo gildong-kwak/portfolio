@@ -18,38 +18,42 @@
                 <a href="#">로그인</a>
                 <a href="#">회원가입</a>
                 <a href="#">마이페이지</a>
-                <a href="#">장바구니</a>
-                <span class="bag_num">0</span>
+                <div class="basket">
+                    <a href="#">장바구니</a>
+                    <span class="basket_num">0</span>
+                </div>
             </div>
         </div>
-        <!-- nav(gnb & lnb) & search -->
-        <nav>
-            <div class="lnb_bg"></div>
+        <!-- menu & search -->
+        <div class="middle">
+            <div class="left">
+                <a href="#"><img src="./images/menu01.svg" alt="">MENU</a>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="검색어를 입력해주세요."><button type="button"><img src="./images/search01.svg" alt=""></button>
+            </div>
+        </div>
+        <!-- nav(gnb & lnb) -->
+        <div class="nav">
             <ul class="gnb">
-                <li><a href="#"><img src="./images/menu01.svg" alt="">MENU</a>
+                <li><a href="#"><span>01</span><h2>ABOUT</h2></a></li>
+                <li><a href="#"><span>02</span><h2>PRODUCTS</h2></a>
                     <ul class="lnb">
-                        <li><a href="#"><span>01</span>ABOUT</a></li>
-                        <li><a href="#"><span>02</span>PRODUCTS</a></li>
-                        <li><a href="#"><span>03</span>STORES</a></li>
-                        <li><a href="#"><span>04</span>CONTACT</a></li>
-                        <li><a href="#"><span>05</span>CERTIFICATION</a></li>
-                    </ul>
-                    <ul class="lnb_left">
                         <li><a href="#"><em>ALL</em></a></li>
                     </ul>
-                    <ul class="lnb_left">
+                    <ul class="lnb">
                         <li><a href="#"><em>CLUB</em></a></li>
                         <li><a href="#">Drivers</a></li>
                         <li><a href="#">Fairways</a></li>
                         <li><a href="#">Utilitys</a></li>
                         <li><a href="#">Irons</a></li>
                     </ul>
-                    <ul class="lnb_left">
+                    <ul class="lnb">
                         <li><a href="#"><em>BAG</em></a></li>
                         <li><a href="#">Caddie bag</a></li>
                         <li><a href="#">Boston bag</a></li>
                     </ul>
-                    <ul class="lnb_left">
+                    <ul class="lnb">
                         <li><a href="#"><em>ACCESSORY</em></a></li>
                         <li><a href="#">Clutch</a></li>
                         <li><a href="#">Head cover</a></li>
@@ -60,10 +64,10 @@
                         <li><a href="#">Mask</a></li>
                     </ul>
                 </li>
+                <li><a href="#"><span>03</span><h2>STORES</h2></a></li>
+                <li><a href="#"><span>04</span><h2>CONTACT</h2></a></li>
+                <li><a href="#"><span>05</span><h2>CERTIFICATION</h2></a></li>
             </ul>
-        </nav>
-        <div class="search">
-            <input type="text" placeholder="검색어를 입력해주세요."><img src="./images/search.svg" alt="">
         </div>
     </header>
     <main>
