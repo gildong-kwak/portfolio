@@ -11,76 +11,106 @@
 </head>
 <body>
     <header>
-        <!-- logo & lnb -->
-        <h1><a href="#"><img src="./images/vwx_logo.png" alt="vwx"></a></h1>
-        <div class="lnb">
-            <a href="#">로그인</a>
-            <a href="#">회원가입</a>
-            <a href="#">마이페이지</a>
-            <a href="#">장바구니</a>
-            <span class="basket_num">0</span>
-        </div>
-        <!-- nav(gnb & snb) -->
-        <nav>
-            <div class="snb_bg">
-                <ul class="gnb">
-                    <li><a href="#"><img src="./images/nav_menu01.svg" alt="menu">MENU</a>
-                        <ul class="snb">
-                            <li><a href="#"><span>01</span>ABOUT</a></li>
-                            <li><a href="#"><span>02</span>PRODUCTS</a></li>
-                            <li><a href="#"><span>03</span>STORES</a></li>
-                            <li><a href="#"><span>04</span>CONTACT</a></li>
-                            <li><a href="#"><span>05</span>CERTIFICATION</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">PRODUCTS<img src="./images/nav_menu02.svg" alt="products"></a>
-                        <ul class="snb">
-                            <li><a href="#"><span>ALL</span></a></li>
-                        </ul>
-                        <ul class="snb">
-                            <li><a href="#"><span>CLUB</span></a></li>
-                            <li><a href="#">드라이버</a></li>
-                            <li><a href="#">페어웨이 우드</a></li>
-                            <li><a href="#">유틸리티</a></li>
-                            <li><a href="#">아이언</a></li>
-                        </ul>
-                        <ul class="snb">
-                            <li><a href="#"><span>BAG</span></a></li>
-                            <li><a href="#">캐디백</a></li>
-                            <li><a href="#">보스턴백</a></li>
-                        </ul>
-                        <ul class="snb">
-                            <li><a href="#"><span>ACCESSORY</span></a></li>
-                            <li><a href="#">클러치</a></li>
-                            <li><a href="#">헤드커버</a></li>
-                            <li><a href="#">모자</a></li>
-                            <li><a href="#">바이저</a></li>
-                            <li><a href="#">기프트세트</a></li>
-                            <li><a href="#">우산</a></li>
-                            <li><a href="#">마스크</a></li>
-                        </ul>
-                    </li>
-                </ul>
+        <!-- logo & snb -->
+        <div class="top">
+            <h1><a href="#"><img src="./images/logo01.png" alt="vwx"></a></h1>
+            <div class="snb">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">마이페이지</a>
+                <a href="#">장바구니</a>
+                <span class="bag_num">0</span>
             </div>
+        </div>
+        <!-- nav(gnb & lnb) & search -->
+        <nav>
+            <div class="lnb_bg"></div>
+            <ul class="gnb">
+                <li><a href="#"><img src="./images/menu01.svg" alt="">MENU</a>
+                    <ul class="lnb">
+                        <li><a href="#"><span>01</span>ABOUT</a></li>
+                        <li><a href="#"><span>02</span>PRODUCTS</a></li>
+                        <li><a href="#"><span>03</span>STORES</a></li>
+                        <li><a href="#"><span>04</span>CONTACT</a></li>
+                        <li><a href="#"><span>05</span>CERTIFICATION</a></li>
+                    </ul>
+                    <ul class="lnb_left">
+                        <li><a href="#"><em>ALL</em></a></li>
+                    </ul>
+                    <ul class="lnb_left">
+                        <li><a href="#"><em>CLUB</em></a></li>
+                        <li><a href="#">Drivers</a></li>
+                        <li><a href="#">Fairways</a></li>
+                        <li><a href="#">Utilitys</a></li>
+                        <li><a href="#">Irons</a></li>
+                    </ul>
+                    <ul class="lnb_left">
+                        <li><a href="#"><em>BAG</em></a></li>
+                        <li><a href="#">Caddie bag</a></li>
+                        <li><a href="#">Boston bag</a></li>
+                    </ul>
+                    <ul class="lnb_left">
+                        <li><a href="#"><em>ACCESSORY</em></a></li>
+                        <li><a href="#">Clutch</a></li>
+                        <li><a href="#">Head cover</a></li>
+                        <li><a href="#">Cap/Hat</a></li>
+                        <li><a href="#">Visor</a></li>
+                        <li><a href="#">Gift set</a></li>
+                        <li><a href="#">Umbrella</a></li>
+                        <li><a href="#">Mask</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
         <div class="search">
             <input type="text" placeholder="검색어를 입력해주세요."><img src="./images/search.svg" alt="search">
         </div>
     </header>
     <main>
-        <!-- main_01 -->
+        <!-- main01_video -->
+        <div class="video">
+            <video src="https://youtu.be/qlLm_-9T87A" autoplay muted loop></video>
+            <div class="vidoe_title">
+                <h2>VICTORY<br>WITH<br>EXCELLENT</h2>
+                <p>탁월함을 통한 승리</p>
+            </div>
+            <div class="scroll">
+                <p>vwx<span>01</span>/ 06</p>
+                <img src="./images/arrow.svg" alt="아래로 스크롤 하세요">
+                <p>SCROLL TO DISCOVER</p>
+            </div>
+        </div>
+        <!-- main02_club -->
+        <div class="club">
+            <div class="club_photo">
+                <img src="./images/model01.jpg" alt="">
+                <img src="./images/model02.jpg" alt="">
+                <img src="./images/model03.jpg" alt="">
+                <ul class="page">
+                    <li><button type="button"><img src="./images/checked01.svg" alt=""></button></li>
+                    <li><button type="button"><img src="./images/unchecked01.svg" alt=""></button></li>
+                    <li><button type="button"><img src="./images/unchecked01.svg" alt=""></button></li>
+                </ul>
+            </div>
+            <div class="club_title">
+                <h2>PERFECT</h2>
+                <p>VWX의 잘.난.채</p>
+                <a href="#" class="view">VIEW MORE</a>
+            </div>
+        </div>
+        <!-- main03_signature -->
         <div class="signature">
             <div class="one">
-                <p><img src="./images/mater1.jpeg" alt=""></p>
-                <p>01</p>
-                <h2>TRANSPARENT</h2>
-                <p>투명한 홀로그램 소재</p>
-            </div>
-            <div class="two">
                 <p><img src="./images/mater2.jpeg" alt=""></p>
-                <p>02</p>
+                <p>01</p>
                 <h2>GLOSSY</h2>
                 <p>주목받는 유광 소재</p>
+            </div>
+            <div class="two">
+                <p><img src="./images/mater1.jpeg" alt=""></p>
+                <p>02</p>
+                <h2>TRANSPARENT</h2>
+                <p>투명한 홀로그램 소재</p>
             </div>
             <div class="three">
                 <p><img src="./images/mater3.jpeg" alt=""></p>
@@ -95,56 +125,58 @@
                 <p>부담없는 가벼운 소재</p>
             </div>
             <ul class="circle">
-                <li><img src="./images/mater1.jpeg" alt=""></li>
-                <li><img src="./images/mater2.jpeg" alt=""></li>
-                <li><img src="./images/mater3.jpeg" alt=""></li>
-                <li><img src="./images/mater4.jpeg" alt=""></li>
+                <li><button type="button"><img src="./images/mater01.jpeg" alt=""></button></li>
+                <li><button type="button"><img src="./images/mater02.jpeg" alt=""></button></li>
+                <li><button type="button"><img src="./images/mater03.jpeg" alt=""></button></li>
+                <li><button type="button"><img src="./images/mater04.jpeg" alt=""></button></li>
             </ul>
-            <div class="scroll">
-                <p>SCROLL TO DISCOVER</p>
-                <img src="./images/scroll.svg" alt="아래로 스크롤 하세요">
-                <p><span>01</span>06 VWX</p>
-            </div>
         </div>
-        <!-- main_02 -->
-        <div class="cat_bag">
+        <!-- main04_bag -->
+        <div class="bag">
+            <div class="bag_title">
+                <h2>COLLECTION</h2>
+                <p>기능성과 아름다움이 조화된 컬렉션</p>
+                <a href="#" class="view">VIEW MORE</a>
+            </div>
             <div class="bag_photo">
-                <p><img src="./images/bag1.jpg" alt=""></p>
-                <p><img src="./images/bag2.jpg" alt=""></p>
-                <p><img src="./images/bag3.jpg" alt=""></p>
+                <img src="./images/bag01.jpg" alt="">
+                <img src="./images/bag02.jpg" alt="">
+                <img src="./images/bag03.jpg" alt="">
+                <ul class="page">
+                    <li><button type="button"><img src="./images/checked01.svg" alt=""></button></li>
+                    <li><button type="button"><img src="./images/unchecked01.svg" alt=""></button></li>
+                    <li><button type="button"><img src="./images/unchecked01.svg" alt=""></button></li>
+                </ul>
             </div>
-            <h2>COLLECTION</h2>
-            <p>기능성과 아름다움이 조화된 컬렉션</p>
-            <a href="#">VIEW MORE</a>
         </div>
-        <!-- main_03 -->
-        <div class="video">
-            <h2>VICTORY<br>WITH<br>EXCELLENT</h2>
-            <p>탁월함을 통한 승리</p>
-        </div>
-        <!-- main_04 -->
-        <div class="cat_club">
-            <h2>PERFECT</h2>
-            <p>VWX의 잘.난.채</p>
-            <a href="#">VIEW MORE</a>
-            <p><img src="./images/model.jpg" alt=""></p>
-        </div>
-        <!-- main_05 -->
-        <div class="insta">
-            <h2>INSTAGRAM</h2>
-            <p>@VWX_OFFICIAL</p>
-            <ul class="photo">
-                <li><img src="./images/insta01.jpeg" alt=""></li>
-                <li><img src="./images/insta02.jpeg" alt=""></li>
-                <li><img src="./images/insta03.jpeg" alt=""></li>
-                <li><img src="./images/insta04.jpeg" alt=""></li>
-            </ul>
-            <a href="#">FOLLOW US</a>
+        <!-- main05_instagram -->
+        <div class="sns">
+            <div class="sns_title">
+                <h2>INSTAGRAM</h2>
+                <p>@VWX_OFFICIAL</p>
+            </div>
+            <div class="insta">
+                <div class="frame">
+                    <img src="./images/insta.png" alt="">
+                    <img src="./images/insta.png" alt="">
+                    <img src="./images/insta.png" alt="">
+                    <img src="./images/insta.png" alt="">
+                    <img src="./images/insta.png" alt="">
+                </div>
+                <div class="photo">
+                    <img src="./images/photo01.jpeg" alt="">
+                    <img src="./images/photo02.jpeg" alt="">
+                    <img src="./images/photo03.jpeg" alt="">
+                    <img src="./images/photo04.jpeg" alt="">
+                    <img src="./images/photo05.jpeg" alt="">
+                </div>
+            </div>
+            <p><a href="#" class="view">FOLLOW US</a></p>
         </div>
     </main>
     <footer>
-        <h1><a href="#"><img src="./images/footer_logo.png" alt="vwx"></a></h1>
-        <ul class="footer_cat">
+        <h1><a href="#"><img src="./images/logo_f01.png" alt="vwx"></a></h1>
+        <ul class="footer_lnb">
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">COLLECTION</a></li>
