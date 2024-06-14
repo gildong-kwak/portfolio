@@ -1,0 +1,387 @@
+/* share */
+html, body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+/* logo & snb */
+header {}
+header .top {
+    /* border: 1px solid white; */
+    padding: 10px 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 0.875rem;
+}
+header .top h1 {}
+header .top h1 a {}
+header .top h1 a img {
+    width: 200px; height: 46px;
+}
+header .top .snb {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+header .top .snb a {
+    /* border: 1px solid white; */
+    color: #fff;
+    padding: 10px 10px;
+    margin-right: 16px;
+}
+header .top .snb .basket {
+    display: flex;
+    align-items: center;
+}
+header .top .snb .basket a {
+    margin-right: 0;
+}
+header .top .snb .basket span {
+    background-color: #76CFC7;
+    border-radius: 5px;
+    padding: 6px 8px;
+    /* border: 1px solid white; */
+}
+
+/* menu & search */
+header .middle {
+    /* border: 1px solid white; */
+    padding: 10px 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header .middle .left {
+    /* border: 1px solid white; */
+    padding: 10px 0;
+}
+header .middle .left a {
+    /* border: 1px solid white; */
+    color: #fff;
+    font-family: 'DM Serif Text';
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+}
+header .middle .left a img {
+    /* border: 1px solid white; */
+    display: block;
+    margin-right: 16px;
+}
+header .middle .right {
+    /* border: 1px solid white; */
+    width: 380px;
+    border-bottom: 1px solid #fff;
+}
+header .middle .right #search_box {}
+header .middle .right #search_box fieldset {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .middle .right #search_box fieldset input {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 330px;
+
+}
+header .middle .right #search_box fieldset input::placeholder {
+    color: #fff;
+}
+header .middle .right #search_box fieldset input[name] {}
+header .middle .right #search_box fieldset #search_btn {
+    border: none;
+    background-color: transparent;
+}
+header .middle .right #search_box fieldset #search_btn img {
+    /* border: 1px solid white; */
+    padding: 0 10px;
+}
+
+/* nav(gnb & lnb) */
+header nav {
+    /* border: 1px solid white; */
+    padding: 30px 60px;
+    position: relative;
+}
+header nav hr {
+    width: 1px; height: 350px;
+    border-width: 0;
+    color: #fff;
+    background-color: #fff;
+    position: absolute; left: 350px; top: 15px;
+}
+header nav .gnb {
+    display: inline-block;
+}
+header nav .gnb > li {
+    /* border: 1px solid white; */
+    margin-bottom: 45px;
+}
+header nav .gnb > li:last-child {
+    margin-bottom: 0;
+}
+header nav .gnb li a {
+    display: flex;
+    flex-flow: row nowrap;
+}
+header nav .gnb li a span {
+    /* border: 1px solid white; */
+    font-size: 0.75rem;
+    color: #fff;
+    margin-right: 30px;
+}
+header nav .gnb li a h2 {
+    /* border: 1px solid white; */
+    font-family: 'DM Serif Text';
+    font-size: 1.563rem;
+    color: #fff;
+}
+header nav .gnb li .lnb_fun {
+    /* border: 1px solid white; */
+    position: absolute; left: 420px; top: 30px;
+    display: flex;
+}
+header nav .gnb li .lnb_fun .lnb {
+    margin-right: 90px;
+}
+header nav .gnb li .lnb_fun .lnb li {
+    margin-bottom: 15px;
+}
+header nav .gnb li .lnb_fun .lnb li a {
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+header nav .gnb li .lnb_fun .lnb li a em {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* main01_video */
+main {}
+main .video {
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+main .video video {
+    width: 100%;
+}
+main .video .video_title {
+    position: absolute; left: 0; top: 330px;
+    width: 100%;
+}
+main .video .video_title p {}
+main .video .video_title h2 {
+    font-family: 'DM Serif Text';
+    font-size: 6.25rem;
+    line-height: 1.3;
+}
+main .video .scroll {
+    font-size: 0.875rem;
+    display: flex;
+    position: absolute; left: 845px; bottom: 50px;
+}
+main .video .scroll p {}
+main .video .scroll p span {}
+main .video .scroll p img {}
+
+/* main02_club */
+main .club {
+    background-image: url(../images/mater02.jpeg);
+    width: 100%; /* height: 953px; */
+    position: relative;
+}
+main .club .club_left {}
+main .club .club_left .club_photo {}
+main .club .club_left .club_photo img {
+    width: 840px; height: 769px;
+    margin: 124px 60px 60px;
+    position: relative;
+}
+main .club .club_left .club_page {
+    display: flex;
+    position: absolute; left: 450px; bottom: 100px;
+    width: 100%;
+}
+main .club .club_left .club_page li {}
+main .club .club_left .club_page li button {
+    margin-right: 16px;
+    border: none;
+    background-color: transparent;
+}
+main .club .club_left .club_page li button img {}
+main .club .club_title {
+    position: absolute; right: 385px; top: 385px;
+    text-align: center;
+}
+main .club .club_title h2 {
+    font-family: 'DM Serif Text';
+    font-size: 3.125rem;
+}
+main .club .club_title p {
+    padding: 30px 0 100px;
+}
+main .club .club_title .view {
+    font-size: 1.25rem;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+/* main03_signature */
+main .signature {
+    background-image: url(../images/mater01.jpeg);
+}
+main .signature .s_bg {}
+main .signature .box {
+    width: 100%; /* height: 953px; */
+    text-align: center;
+    color: white;
+    padding: 305px 0 350px;
+}
+main .signature .box .image {}
+main .signature .box .image img {}
+main .signature .box .small {
+    font-size: 0.875rem;
+}
+main .signature .box h2 {
+    /* font-size: 3.125rem; */
+    font-size: 5rem;
+    font-family: 'DM Serif Text';
+    padding: 30px 0;
+}
+main .signature .box p {}
+main .signature .circle {
+    display: flex;
+    padding: 0 876px 136px;
+}
+main .signature .circle li {}
+main .signature .circle li button {
+    border: none;
+    background-color: transparent;
+}
+main .signature .circle li button img {
+    width: 30px; height: 30px;
+    border-radius: 100px;
+    margin-right: 16px;
+}
+main .signature .circle li #cir_btn_01 img {
+    border: 3px solid #fff;
+}
+main .signature .circle li #cir_btn_04 img {
+    margin-right: 0;
+}
+
+/* main04_bag */
+main .bag {
+    background-image: url(../images/mater04.jpeg);
+    width: 100%; /* height: 953px; */
+    position: relative;
+}
+main .bag .bag_title {
+    position: absolute; left: 385px; top: 385px;
+    text-align: center;
+}
+main .bag .bag_title h2 {
+    font-family: 'DM Serif Text';
+    font-size: 3.125rem;
+}
+main .bag .bag_title p {
+    padding: 30px 0 100px;
+}
+main .bag .bag_title .view {
+    font-size: 1.25rem;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+main .bag .bag_right {}
+main .bag .bag_right .bag_photo {}
+main .bag .bag_right .bag_photo img {
+    width: 840px; height: 769px;
+    margin: 124px 60px 60px 1020px;
+    position: relative;
+}
+main .bag .bag_right .bag_page {
+    display: flex;
+    position: absolute; left: 1430px; bottom: 100px;
+    width: 100%;
+}
+main .bag .bag_right .bag_page li {}
+main .bag .bag_right .bag_page li button {
+    margin-right: 16px;
+    border: none;
+    background-color: transparent;
+}
+main .bag .bag_right .bag_page li button img {}
+
+/* main05_instagram */
+main .sns {
+    margin-top: 114px;
+    text-align: center;
+    color: #fff;
+}
+main .sns .sns_title {}
+main .sns .sns_title h2 {
+    font-family: 'DM Serif Text';
+    font-size: 3.125rem;
+    padding-bottom: 30px;
+}
+main .sns .sns_title p {}
+main .sns .insta {
+    padding: 89px 0;
+}
+main .sns .insta li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+main .sns .insta li img {
+    width: 316px; height: 420px;
+    border-radius: 10px;
+}
+main .sns > .view {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    margin: 35px auto;
+    text-align: center;
+    color: #fff;
+}
+footer h1 {}
+footer h1 a {}
+footer h1 a img {
+    width: 200px; height: 100px;
+}
+footer .f_lnb {}
+footer .f_lnb li {}
+footer .f_lnb li a {
+    color: #fff;
+    font-family: 'DM Serif Text';
+    font-size: 1.125rem;
+    padding: 35px 30px 35px 0;
+    display: inline-block;
+}
+footer .f_lnb li a:last-child {
+    padding-right: 0;
+}
+footer p {
+    font-size: 0.875rem;
+    line-height: 30px;
+}
+footer p:last-child {
+    padding-top: 30px;
+}
