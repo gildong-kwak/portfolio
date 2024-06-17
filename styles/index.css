@@ -5,6 +5,11 @@ html, body {
     background-color: #000;
 }
 
+/* item-fixed */
+body > * {
+    width: 1920px;
+}
+
 /* logo & snb */
 header {}
 header .top {
