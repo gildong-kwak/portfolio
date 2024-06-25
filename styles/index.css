@@ -511,35 +511,45 @@ main .event .event_func {
     font-size: 0.875rem;
 }
 main .event .event_func .event_one {}
-main .event .event_func .event_one p {}
-main .event .event_func .event_one p img {
+main .event .event_func .event_one a {}
+main .event .event_func .event_one a p {}
+main .event .event_func .event_one a p img {
     width: 870px;
 }
-main .event .event_func .event_one h2 {
+main .event .event_func .event_one a h2 {
+    color: #fff;
     font-size: 1.875rem;
     font-weight: 700;
+    margin-top: 30px;
 }
-main .event .event_func .event_one .event_info {
+main .event .event_func .event_one a .event_info {
     margin: 15px 0 10px 0;
 }
-main .event .event_func .event_one p {}
-main .event .event_func .event_one p em {
+main .event .event_func .event_one a p {
+    color: #fff;
+}
+main .event .event_func .event_one a p em {
     color: #CDCDCD;
 }
 main .event .event_func .event_two {}
-main .event .event_func .event_two p {}
-main .event .event_func .event_two p img {
+main .event .event_func .event_two a {}
+main .event .event_func .event_two a p {}
+main .event .event_func .event_two a p img {
     width: 870px;
 }
-main .event .event_func .event_two h2 {
+main .event .event_func .event_two a h2 {
+    color: #fff;
     font-size: 1.875rem;
     font-weight: 700;
+    margin-top: 30px;
 }
-main .event .event_func .event_two .event_info {
+main .event .event_func .event_two a .event_info {
     margin: 15px 0 10px 0;
 }
-main .event .event_func .event_two p {}
-main .event .event_func .event_two p em {
+main .event .event_func .event_two a p {
+    color: #fff;
+}
+main .event .event_func .event_two a p em {
     color: #CDCDCD;
 }
 
